@@ -12,6 +12,7 @@ def Get_meaning(word):
 # Define a function to get the meaning of a word.
 
 
+
 def Unknown_format(word):
     unknownform = '_'*len(word)
 
@@ -85,3 +86,5 @@ while True:
                 fg("9") + style.BOLD+"\n by the way the word was: ", word+attr("reset"))
             break
 print(fg("30")+Get_meaning(word)+attr('reset'))
+
+# UPDATE BY OKAN
